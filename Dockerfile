@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 
 RUN apt-get update && apt-get -y install openvpn
 RUN cp -pr /etc/openvpn /etc/openvpn-orig
